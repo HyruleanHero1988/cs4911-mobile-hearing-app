@@ -4,5 +4,6 @@
     <string name="app_name">Wildlife Sounds</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="new_string">New string resource</string>
 
 </resources>
