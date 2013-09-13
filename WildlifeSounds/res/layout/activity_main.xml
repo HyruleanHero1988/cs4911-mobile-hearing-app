@@ -21,9 +21,15 @@
         android:layout_alignLeft="@+id/textView2"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="34dp"
+<<<<<<< .mine
+        android:text="THIS IS A GREAT TEST!!!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
+=======
         android:text="@string/this_is_a_great_test_"
         android:textAppearance="?android:attr/textAppearanceMedium"
         tools:ignore="HardcodedText" />
+>>>>>>> .r12
 
     <TextView
         android:id="@+id/textView3"
@@ -33,6 +39,16 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="97dp"
         android:text="@string/new_string"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="41dp"
+        android:text="@string/svn_test"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>
