@@ -4,6 +4,7 @@
     <string name="app_name">Wildlife Sounds</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="svn_test">SVN TEST!!!</string>
 
     <string name="new_string">New string resource dang update</string>
 
