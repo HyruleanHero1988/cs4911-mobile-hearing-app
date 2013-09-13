@@ -21,8 +21,9 @@
         android:layout_alignLeft="@+id/textView2"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="34dp"
-        android:text="THIS IS A GREAT TEST!!!"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:text="@string/this_is_a_great_test_"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView3"
