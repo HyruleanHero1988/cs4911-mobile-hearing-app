@@ -6,7 +6,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="svn_test">SVN TEST!!!</string>
 
-    <string name="new_string">New string resource dang update</string>
+    <string name="new_string">New string resource Ray update</string>
+
+    <string name="this_is_a_great_test_">THIS IS A GREAT TEST!!!</string>
 
 
 </resources>
