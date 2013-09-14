@@ -2,14 +2,9 @@
 <resources>
 
     <string name="app_name">Wildlife Sounds</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">I hate the world!</string>
-
-
-    <string name="svn_test">SVN TEST!!!</string>
+    <string name="WLS">Wildlife Sounds</string>
 
     <string name="new_string">New string resource Ray update</string>
-
-    <string name="this_is_a_great_test_">THIS IS A GREAT TEST!!!</string>
+    <string name="Dang">THIS IS A GREAT TEST!!!</string>
 
 </resources>
