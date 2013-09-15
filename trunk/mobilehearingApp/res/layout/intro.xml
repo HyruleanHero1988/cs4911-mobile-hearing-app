@@ -23,13 +23,13 @@
             android:layout_height="wrap_content" >
 
             <ImageView
-                android:id="@+id/imageView1"
+                android:id="@+id/tvLogoImage"
                 android:layout_width="74dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/mainlogo" />
 
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/tvLogoText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="17dp"
