@@ -7,12 +7,18 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET" /> <!-- add permission -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    
+    
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
         <activity
             android:name="com.example.mobilehearingapp.Intro"
             android:label="@string/app_name" >
@@ -22,6 +28,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name=".Main"
+            android:label="@string/classNameMain" >
+            <intent-filter>
+                <action android:name="com.example.mobilehearingapp.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Animallist"
+            android:label="@string/classNameAnimalList" >
+            <intent-filter>
+                <action android:name="com.example.mobilehearingapp.ANIMALLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>    
+        
+        
+        
+        
+        
     </application>
 
 </manifest>
