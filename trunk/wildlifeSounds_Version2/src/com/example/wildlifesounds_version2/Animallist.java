@@ -28,6 +28,7 @@ public class Animallist extends Activity {
 	
 	
 	private void initializeVariable(){
+		animallist=(ListView)findViewById(R.id.lvAnimallist);
 		
 	
 
