@@ -5,10 +5,28 @@ import android.app.Activity;
 import android.view.Menu;
 import android.widget.Button;
 import android.widget.ListView;
+import java.util.ArrayList;
+
 
 public class Animallist extends Activity {
-
+	private ArrayList<animal> animalList_database; 	//contain a array list of Animal class
 	private ListView animallist;
+	
+	private String[]animals= {"bobcat","coyote","deer","fox","mountainlion","possum",
+							  "rabbit","raccoon","squirrel","turkey"};
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	@Override
