@@ -22,9 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-                <activity
-            android:name=".Main"
+        <activity
+            android:name="com.example.wildlifesounds_version2.Main"
             android:label="@string/classNameMain" >
             <intent-filter>
                 <action android:name="com.example.wildlifesounds_version2.MAINACTIVITY" />
@@ -32,17 +31,19 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        
-                <activity
-            android:name=".Animallist"
+        <activity
+            android:name="com.example.wildlifesounds_version2.Animallist"
             android:label="@string/classNameAnimalList" >
             <intent-filter>
                 <action android:name="com.example.wildlifesounds_version2.ANIMALLIST" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>    
-
+        </activity>
+        <activity
+            android:name="com.example.wildlifesounds_version2.Game"
+            android:label="@string/title_activity_game" >
+        </activity>
     </application>
 
 </manifest>

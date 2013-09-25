@@ -17,15 +17,29 @@ public class Animallist extends Activity {
 	
 	
 
+/*reorder function
+ * @param take in the list of animal name to be shorted based on A-Z alphabet. 
+ * @return ordered animal name
+ */
+	private String[] reorder(String[]animal){
+		//implement your code here
+		return null;
+	}
 	
 	
 	
-	
-	
-	
-	
-	
-	
+	/*addToAnimalListDatabase function
+	 * @param take in the list of animal name and create a new animal class for each animal.
+	 *       for each animal class:
+	 *       	initialize animal sound,imageURL,sound, and type variable
+	 *        once all the animal class is created, add them to animalList_database.
+	 * 
+	 */
+	private void addToAnimalListDatabase(String[]animal){
+		//implement your code here	
+			
+	}
+		
 	
 	
 	
