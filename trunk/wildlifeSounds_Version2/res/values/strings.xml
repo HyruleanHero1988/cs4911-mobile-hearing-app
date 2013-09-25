@@ -9,5 +9,6 @@
     <string name="logo">Wildlife Sounds</string>
     <string name="title_activity_main">Main</string>
     <string name="title_activity_animallist">Animallist</string>
+    <string name="title_activity_game">Game</string>
 
 </resources>
